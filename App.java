@@ -174,13 +174,13 @@
 // }
 
 // decrement operator ( -- )
-class App{
-    public static void main(String[]agrs){
-        int number = 55;
-        //number--;
-        //System.out.println(number);
+// class App{
+//     public static void main(String[]agrs){
+//         int number = 55;
+//         //number--;
+//         //System.out.println(number);
 
-        //Alternetive
-        System.out.println(--number);
-    }
-}
+//         //Alternetive
+//         System.out.println(--number);
+//     }
+// }
