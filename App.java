@@ -275,3 +275,34 @@
 //         System.out.println(name.isEmpty());
 //     }
 // }
+
+//                         //Experimental testing       Works
+// class App{
+//     public static void main(String[]args){
+
+//         String name = "Prabhnoor Singh";
+
+//         System.out.println("I am "+name+" and my name is "+name.length()+ " characters long");
+//     }
+// }
+
+                        //Alternative testing method        Doesn't work
+// class App{
+//     public static void main(String[]args){
+
+//         String name = "Prabhnoor Singh";
+
+//         String Bio = String.format("I am %s and my name is %s.length() characters long",name,name);
+//         System.out.println(Bio);
+//     }
+// }
+//                                        // Working version
+// class App{
+//     public static void main(String[]args){
+
+//         String name = "Prabhnoor Singh";
+
+//         String Bio = String.format("I am %s and my name is "+ name.length()+ " characters long",name,name);
+//         System.out.println(Bio);
+//     }
+// }
