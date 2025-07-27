@@ -306,3 +306,15 @@
 //         System.out.println(Bio);
 //     }
 // }
+
+                        //Converting a String to UPPERCASE or lowercase
+// class App{
+//     public static void main(String[]args){
+
+//         String name = "Prabhnoor Singh";
+
+//         System.out.println(name.toUpperCase());
+//         System.out.println(name.toLowerCase());
+//     }
+// }
+
