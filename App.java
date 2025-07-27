@@ -185,7 +185,6 @@
 //     }
 // }
 
-                        //How to use Strings
 // class App{
 //     public static void main(String[]args){
 //         //String name = "Prabhnoor Singh";
@@ -196,7 +195,6 @@
 //     }
 // }
 
-                        //Difference between Normal method to declare a string and the new method
 // class App{
 //     public static void main(String[]args){
 //         String literalString1 = "abc";
@@ -211,7 +209,7 @@
 //     }
 // }
 
-//Normal method to use a string
+                        //Normal method to use a string
 // class App{
 //     public static void main(String[]args){
        
@@ -225,16 +223,16 @@
 // }
 
                         // Formatted String method
-class App{
-    public static void main(String[]args){
+// class App{
+//     public static void main(String[]args){
        
-        String name = "Prabhnoor Singh";
-        String university = "BSBI";
-        String country = "India";
-        int age = 20;
+//         String name = "Prabhnoor Singh";
+//         String university = "BSBI";
+//         String country = "India";
+//         int age = 20;
 
-        String FormattedString = String.format ("My name is %s. I study at %s. I am %d years old. I am from %s.",name,university,age,country);
+//         String FormattedString = String.format ("My name is %s. I study at %s. I am %d years old. I am from %s.",name,university,age,country);
 
-        System.out.println(FormattedString);
-    }
-}
+//         System.out.println(FormattedString);
+//     }
+// }
