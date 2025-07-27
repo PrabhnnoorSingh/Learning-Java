@@ -238,3 +238,20 @@
 //         System.out.println(FormattedString);
 //     }
 // }
+
+                        //format specifers
+// class App{
+//     public static void main(String[]args){
+       
+//         String name = "Prabhnoor Singh";
+//         String university = "BSBI";
+//         String country = "India";
+//         int age = 20;
+//         char percentSign = '%';
+//         boolean allTruth = false;
+
+//         String FormattedString = String.format ("My name is %s. I study at %s. I am %d years old. I am from %s. I got 50%c in my exams. One of these is %b.",name,university,age,country,percentSign,allTruth);
+
+//         System.out.println(FormattedString);
+//     }
+// }
