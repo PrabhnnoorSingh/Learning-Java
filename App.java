@@ -255,3 +255,14 @@
 //         System.out.println(FormattedString);
 //     }
 // }
+
+//                         //using the .length() attachment
+// class App{
+//     public static void main(String[]args){
+
+//         String name = "Prabhnoor Singh";
+
+//         System.out.println(name.length());
+//     }
+// }
+
