@@ -363,3 +363,11 @@
 //     }
 // }
 
+//                         //Check if the string includes a certian word
+// class App{
+//     public static void main(String[]args){
+//          String string = "The sky is blue";
+
+//          System.out.println(string.contains("sky"));
+//     }
+// }// end
