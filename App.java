@@ -318,3 +318,37 @@
 //     }
 // }
 
+                        // Compairing two strings for equality
+// //the (==) method
+// class App{
+//     public static void main(String[]args){
+
+//         String string1 = new String("abc");
+//         String string2 = new String("abc");
+
+//         System.out.println(string1 == string2); //the output is false
+//     }
+// }
+
+// //the .equals() method
+// class App{
+//     public static void main(String[]args){
+
+//         String string1 = new String("abc");
+//         String string2 = new String("abc");
+
+//         System.out.println(string1.equals(string2)); //the output is true
+//     }
+// }
+
+// //the .equalsIgnoreCase() method
+// class App{
+//     public static void main(String[]args){
+
+//         String string1 = new String("abc");
+//         String string2 = new String("ABC");
+
+//         System.out.println(string1.equalsIgnoreCase(string2)); //the output is true
+//     }
+// }
+
