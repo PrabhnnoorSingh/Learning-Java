@@ -185,6 +185,7 @@
 //     }
 // }
 
+                        //how to declare a string
 // class App{
 //     public static void main(String[]args){
 //         //String name = "Prabhnoor Singh";
@@ -195,6 +196,7 @@
 //     }
 // }
 
+                        //difference between normal method to declare a string and the new method.
 // class App{
 //     public static void main(String[]args){
 //         String literalString1 = "abc";
