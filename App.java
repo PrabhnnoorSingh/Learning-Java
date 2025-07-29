@@ -372,21 +372,39 @@
 //     }
 // }// end
 
-                        // learning to input
+//                         // learning to input
 
-import java.util.Scanner ;
+// import java.util.Scanner ;
 
-class App{
-    public static void main(String[]args){
+// class App{
+//     public static void main(String[]args){
 
-        Scanner scanner = new Scanner(System.in);
+//         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("what is your name");
-        String name = scanner.nextLine();
+//         System.out.println("What is your name?");
+//         String name = scanner.nextLine();
 
-        System.out.println("Your name is "+name+".");
+//         System.out.println("Your name is "+name+".");
 
-        scanner.close();
+//         scanner.close();
 
+//     }
+// }
+
+    //Without using the println metnod
+import java.util.Scanner;
+
+class App{ 
+    public  static void main(String[]args){
+ 
+         Scanner scanner = new Scanner(System.in);
+ 
+         System.out.print("What is your name?");
+         String name = scanner.nextLine();
+ 
+         System.out.println("Your name is "+name+".");
+ 
+         scanner.close();   // the ln in println takes us to the next line
+ 
     }
-}
+}//end 
