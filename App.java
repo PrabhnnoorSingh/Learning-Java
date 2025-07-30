@@ -391,20 +391,35 @@
 //     }
 // }
 
-    //Without using the println metnod
-import java.util.Scanner;
+//     //Without using the println metnod
+// import java.util.Scanner;
 
-class App{ 
-    public  static void main(String[]args){
+// class App{ 
+//     public  static void main(String[]args){
  
-         Scanner scanner = new Scanner(System.in);
+//          Scanner scanner = new Scanner(System.in);
  
-         System.out.print("What is your name?");
-         String name = scanner.nextLine();
+//          System.out.print("What is your name?");
+//          String name = scanner.nextLine();
  
-         System.out.println("Your name is "+name+".");
+//          System.out.println("Your name is "+name+".");
  
-         scanner.close();   // the ln in println takes us to the next line
+//          scanner.close();   // the ln in println takes us to the next line
  
+//     }
+// }//end
+
+                        // Using the printf method
+import java.util.Scanner;
+class App{
+    public static void main(String[]args){
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("What is your name?");
+        String name = scanner.nextLine();
+
+        System.out.printf("Hello %s. How are you?",name);
+        scanner.close();
+
     }
-}//end 
+}
