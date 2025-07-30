@@ -409,7 +409,22 @@
 //     }
 // }//end
 
-                        // Using the printf method
+//                         // Using the printf method
+// import java.util.Scanner;
+// class App{
+//     public static void main(String[]args){
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.print("What is your name?");
+//         String name = scanner.nextLine();
+
+//         System.out.printf("Hello %s. How are you?",name);
+//         scanner.close();
+
+//     }
+// }
+
+//                         // Using Different types of data in the scanner method
 import java.util.Scanner;
 class App{
     public static void main(String[]args){
@@ -418,7 +433,12 @@ class App{
         System.out.print("What is your name?");
         String name = scanner.nextLine();
 
-        System.out.printf("Hello %s. How are you?",name);
+        System.out.printf("Hello %s. How old are you?",name);
+
+        int age = scanner.nextInt();
+
+        System.out.printf("%d is a great age to start Programing",age);
+
         scanner.close();
 
     }
