@@ -443,3 +443,25 @@
 
 //     }
 // }//end
+
+//                         //How to close the input buffer caused by the nextInt()command
+// import java.util.Scanner;
+// class App{
+//     public static void main(String[]args){
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.print("what is your name?");
+//         String name = scanner.nextLine();
+
+//         System.out.printf("Hello %s. How old are you?", name);
+//         int age = scanner.nextInt();
+//         scanner.nextLine();
+
+//         System.out.printf("%d is a great age to start programming. What is your prefered language?", age);
+//         String language = scanner.nextLine();
+
+//         System.out.printf("%s is a very popular language for programming", language);
+        
+
+//     }
+// }
