@@ -465,3 +465,24 @@
 
 //     }
 // }
+
+//                         // Alternate method to avoid the inputBuffer 
+// import java.util.Scanner;
+// class App{
+//     public static void main(String[]args){
+//         Scanner scanner = new Scanner(System.in);
+
+//         System.out.print("what is your name?");
+//         String name = scanner.nextLine();
+
+//         System.out.printf("hello %s. How old are you?",name);
+//         int age = Integer.parseInt(scanner.nextLine());
+
+//         System.out.printf("%d is a great age to start programing. what language do you prefer?",age);
+//         String language = scanner.nextLine();
+
+//         System.out.printf("%s is a very popular language.", language);
+
+//         scanner.close();
+//     }
+// }-end
