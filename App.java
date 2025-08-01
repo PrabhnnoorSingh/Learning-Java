@@ -1,4 +1,4 @@
-                        //making a simple calculator
+//                         //making a simple calculator
 import java.util.Scanner;
 class App{
     public static void main(String[]args){
@@ -17,15 +17,29 @@ class App{
 
         if (operation.equals("sum")){
             System.out.printf("%f + %f = %f",Number1,Number2,Number1 + Number2);   
-        }else if (operation.equals("sub")){
+        }
+        else if (operation.equals("sub")){
             System.out.printf("%f - %f = %f",Number1,Number2,Number1 - Number2);
-        }else if (operation.equals("div")){
+        }
+        else if (operation.equals("div")){
+            if (Number2 == 0){
+                System.out.println("Number can not be divided.");
+            }
+            else if (Number1 == 0){
+                System.out.println("Number can not be divided.");
+            }
+            else {
             System.out.printf("%f / %f = %f",Number1,Number2,Number1 / Number2);
-        }else if (operation.equals("mlt")){
+            }
+        }
+        else if (operation.equals("mul")){
             System.out.printf("%f * %f = %f",Number1,Number2,Number1 * Number2);
-        }else if (operation.equals("rmn")){
+        }
+        else if (operation.equals("rem")){
             System.out.printf("%f % %f = %f",Number1,Number2,Number1 % Number2);
-        }else {
+        }
+        else {
+
             System.out.println("Operation not possible.");
         }
 
