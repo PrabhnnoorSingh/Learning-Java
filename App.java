@@ -596,3 +596,13 @@
 //         System.out.println(Arrays.toString(vowels));
 //     }
 // }
+
+                        //Defining and declaring arrays in the same line 
+import java.util.Arrays;
+class App{
+    public static void main(String[]args){
+        char vowels[] = {'a','e','i','o','u'};
+
+        System.out.println(Arrays.toString(vowels));
+    }
+}
