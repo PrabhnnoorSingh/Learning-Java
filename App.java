@@ -642,3 +642,12 @@
 //         System.out.println(Arrays.toString(vowels));
 //     }
 // }end
+
+//                         //how to get the lenght of an Array
+// class App{
+//     public static void main(String[]args){
+//         char vowels[] = {'e','u','a','o','i'};
+
+//         System.out.println(vowels.length);
+//     }
+// }
