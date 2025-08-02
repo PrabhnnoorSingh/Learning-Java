@@ -618,3 +618,14 @@
 //         System.out.println(Arrays.toString(vowels));
 //     }
 // }
+
+//                         //sorting values in the arrays
+// import java.util.Arrays;
+// class App{
+//     public static void main(String[]args){
+//         char vowels[] = {'e','u','a','o','i'};
+
+//         Arrays.sort(vowels);
+//         System.out.println(Arrays.toString(vowels));
+//     }
+// }
