@@ -629,3 +629,16 @@
 //         System.out.println(Arrays.toString(vowels));
 //     }
 // }
+
+//                          //sorting values in the arrays in a specified range
+// import java.util.Arrays;
+// class App{
+//     public static void main(String[]args){
+//         char vowels[] = {'e','u','a','o','i'};
+//         int startingIndex = 1;
+//         int endingIndex = 4;
+
+//         Arrays.sort(vowels,startingIndex,endingIndex);
+//         System.out.println(Arrays.toString(vowels));
+//     }
+// }end
