@@ -715,3 +715,37 @@
 //         System.out.println(Arrays.toString(copyOfNumbers));
 //     }
 // }
+
+//                         //making a copy of a range of an array
+// import java.util.Arrays;
+// class App{
+//     public static void main(String[]args){
+//         int numbers[] = {1,2,3,4,5};
+
+//         int startingIndex = 1;
+//         int EndingIndex = 4;
+
+//         int copyOfNumbers[] = Arrays.copyOfRange(numbers, startingIndex,EndingIndex);
+
+//         System.out.println(Arrays.toString(numbers));
+//         System.out.println(Arrays.toString(copyOfNumbers));
+//     }
+// }
+ 
+// import java.util.Arrays;
+// class App{
+//     public static void main(String[]args){
+//         int numbers[] = {1,2,3,4,5};
+
+//         int startingIndex = 1;
+//         int EndingIndex = 4;
+
+//         int copyOfNumbers[] = Arrays.copyOfRange(numbers, startingIndex,EndingIndex);
+
+//         Arrays.fill(numbers, 0);
+
+//         System.out.println(Arrays.toString(numbers));
+//         System.out.println(Arrays.toString(copyOfNumbers));
+//     }
+// }
+  
