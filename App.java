@@ -677,3 +677,17 @@
 //         System.out.println(vowels);
 //     }
 // }
+//                       // fill a specified range within the array
+// import java.util.Arrays;
+// class App{
+//     public static void main(String[]args){
+//         char vowels[] = {'e','u','a','o','i'};
+
+//         int startingIndex = 1;
+//         int endingIndx = 4;
+
+//         Arrays.fill(vowels,startingIndex, endingIndx, 'x');
+
+//         System.out.println(vowels);
+//     }
+// }end
