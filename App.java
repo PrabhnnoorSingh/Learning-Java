@@ -666,3 +666,14 @@
 //         System.out.println(foundItemIndex);
 //     }
 // }end
+//                       // fill an entire array
+// import java.util.Arrays;
+// class App{
+//     public static void main(String[]args){
+//         char vowels[] = {'e','u','a','o','i'};
+
+//         Arrays.fill(vowels, 'x');
+
+//         System.out.println(vowels);
+//     }
+// }
