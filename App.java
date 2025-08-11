@@ -4,16 +4,20 @@ class App{
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
 
+        System.out.print("what Operation do you want to perform?: ");
+        String operation = scanner.nextLine();
+
+
         System.out.print("Enter the first number: ");
         double Number1 = scanner.nextDouble();
         scanner.nextLine();
 
+        double Number2 = 0;
+        if(!operation.equals("table")){
         System.out.print("Enter the second number: ");
-        double Number2 = scanner.nextDouble();
+        Number2 = scanner.nextDouble();
         scanner.nextLine();
-
-        System.out.print("what Operation do you want to perform?: ");
-        String operation = scanner.nextLine();
+        }
 
         if (operation.equals("sum")){
             System.out.printf("%f + %f = %f",Number1,Number2,Number1 + Number2);   
@@ -38,6 +42,11 @@ class App{
         else if (operation.equals("rem")){
             System.out.printf("%f % %f = %f",Number1,Number2,Number1 % Number2);
         }
+        else if(operation.equals("table")){
+            for(int multiplier = 1; multiplier <=10; multiplier++){
+                System.out.printf("%d X %d = %d \n",(int)Number1, multiplier, (int)Number1*multiplier);
+            }
+        }
         else {
 
             System.out.println("Operation not possible.");
@@ -52,17 +61,21 @@ import java.util.Scanner;
 class App{
     public static void main(String[]args){
         Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("what Operation do you want to perform?: ");
+        String operation = scanner.nextLine();
+
 
         System.out.print("Enter the first number: ");
         double Number1 = scanner.nextDouble();
         scanner.nextLine();
 
+        double Number2 = 0;
+        if(!operation.equals("table")){
         System.out.print("Enter the second number: ");
-        double Number2 = scanner.nextDouble();
+        Number2 = scanner.nextDouble();
         scanner.nextLine();
-
-        System.out.print("what Operation do you want to perform?: ");
-        String operation = scanner.nextLine();
+        }
 
         switch (operation){
             case "sum":
@@ -80,11 +93,16 @@ class App{
             case "div":
              if (Number2 == 0){
                 System.out.println("Can not divide by 0.");
+
             }
             else {
             System.out.printf("%f / %f = %f",Number1,Number2,Number1 / Number2);
             }
             break;
+            case "table":
+            for(int multiplier = 1; multiplier <=10; multiplier++){
+                System.out.printf("%d X %d = %d \n",(int)Number1, multiplier, (int)Number1*multiplier);
+            }break;
             default:
             System.out.printf("%s is not a supported operation.",operation);
         }
