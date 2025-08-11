@@ -749,3 +749,27 @@
 //     }
 // }
   
+//                         //comparing the Arrays
+// import java.util.Arrays;
+// class App{
+//     public static void main(String[]args){
+//         int numbers[] = {1,2,3,4,5};
+
+//         int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length);
+
+//         System.out.println(Arrays.equals(numbers,copyOfNumbers));
+//     }
+// }        ---Correct Method
+
+
+// import java.util.Arrays;
+// class App{
+//     public static void main(String[]args){
+//         int numbers[] = {1,2,3,4,5};
+
+//         int copyOfNumbers[] = Arrays.copyOf(numbers, numbers.length);
+
+//         System.out.println(numbers == copyOfNumbers);
+//     }
+// }        ---Incorrect method
+  
