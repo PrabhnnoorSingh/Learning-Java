@@ -781,3 +781,13 @@
 //         }
 //     }
 // }
+
+//                         //For loop over an Array
+// class App{
+//     public static void main(String[]args){
+//         int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//         for(int index = 0; index < 10; index++){
+//             System.out.println(numbers[index]);
+//         }
+//     }
+// }//
