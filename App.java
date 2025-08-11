@@ -804,3 +804,27 @@
 //           System.out.println(sum);
 //     }
 // }
+
+//                         //Printing tables using FOR loops
+// class App{
+//     public static void main(String[]args){
+//         int number = 5;
+
+//         for(int multiplier = 1; multiplier <= 10; multiplier++){
+//             System.out.printf("%d X %d = %d \n", number, multiplier, number*multiplier);
+          
+//         }
+//     }
+// }
+
+//                         //Using nested FOR loops
+// class App{
+//     public static void main(String[]args){
+//         for(int number = 1; number <= 10; number++){
+//             for(int multiplier = 1; multiplier <= 10; multiplier++){
+//             System.out.printf("%d X %d = %d \n", number, multiplier, number*multiplier);
+          
+//             }
+//         }
+//     }
+// }--
