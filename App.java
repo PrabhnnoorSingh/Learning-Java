@@ -863,20 +863,20 @@
 //     }
 // }--
 
-                        //Experiment 1 with an Array
-import java.util.Arrays;
-import java.util.Scanner;
-class App{
-    public static void main(String[]args){
-        Scanner scanner = new Scanner(System.in);
-        int numbers[] = {1,2,3,4,5,6,7,8,9};
-        System.out.println("What Index do you want to replace? 0-8");
-        int index = scanner.nextInt();
-        System.out.println("what do you want to replace it with?") ;
-        int newNumber= scanner.nextInt();
-        scanner.nextLine();
-        numbers[index] = newNumber;
-        System.out.println("Sucessfully changed Array"+Arrays.toString(numbers));
+//                         //Experiment 1 with an Array
+// import java.util.Arrays;
+// import java.util.Scanner;
+// class App{
+//     public static void main(String[]args){
+//         Scanner scanner = new Scanner(System.in);
+//         int numbers[] = {1,2,3,4,5,6,7,8,9};
+//         System.out.println("What Index do you want to replace? 0-8");
+//         int index = scanner.nextInt();
+//         System.out.println("what do you want to replace it with?") ;
+//         int newNumber= scanner.nextInt();
+//         scanner.nextLine();
+//         numbers[index] = newNumber;
+//         System.out.println("Sucessfully changed Array"+Arrays.toString(numbers));
        
-    }
-}
+//     }
+// }
