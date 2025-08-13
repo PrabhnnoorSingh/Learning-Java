@@ -840,3 +840,25 @@
 //         }
 //     }
 // }
+
+//                         //Using Arrays in a for loop
+// class App{
+//     public static void main(String[]args){
+//         int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//         for(int number : numbers){
+//             System.out.println(number);
+//         }
+//     }
+// }
+
+//                         //summing an Array in a for loop
+// class App{
+//     public static void main(String[]args){
+//         int numbers[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+//         int sum = 0;
+//         for(int number : numbers){
+//             sum += number;
+//         }
+//         System.out.println(sum);
+//     }
+// }--
