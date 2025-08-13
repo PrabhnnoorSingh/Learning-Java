@@ -825,6 +825,7 @@
 //             System.out.printf("%d X %d = %d \n", number, multiplier, number*multiplier);
           
 //             }
+//              System.out.printf("\n");
 //         }
 //     }
 // }--
