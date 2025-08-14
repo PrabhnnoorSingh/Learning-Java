@@ -880,3 +880,16 @@
        
 //     }
 // }
+
+//                         // while loops
+// class App{
+//     public static void main(String[]args){
+//         int Number = 5;
+//         int multiplier = 1;
+
+//         while(multiplier <= 10){
+//             System.out.printf("%d X %d = %d \n",Number,multiplier,Number*multiplier);
+//             multiplier++;
+//         }
+//     }
+// }--
