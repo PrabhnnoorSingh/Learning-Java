@@ -956,3 +956,21 @@
 //         System.out.println(numbers.toString());
 //     }
 // }--
+
+//                         //Removing a certain value in an ArrayList
+// import java.util.ArrayList;
+// class App{
+//     public static void main(String[]args){
+//         ArrayList<Integer>numbers = new ArrayList<Integer>();
+
+//         numbers.add(1); //0---
+//         numbers.add(2); //1  |
+//         numbers.add(3); //2  Index
+//         numbers.add(4); //3  |
+//         numbers.add(5); //4---
+
+//         numbers.remove(Integer.valueOf(4));
+
+//         System.out.println(numbers.toString());
+//     }
+// }
