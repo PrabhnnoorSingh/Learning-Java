@@ -1161,3 +1161,23 @@
 
 //     }
 // }--
+
+//                         //Using the forEach loop to update values in an ArrayList
+// import java.util.ArrayList;
+// class App{
+//     public static void main(String[]args){
+//         ArrayList<Integer>numbers = new ArrayList<Integer>();
+//         numbers.add(1);
+//         numbers.add(2);
+//         numbers.add(3);
+//         numbers.add(4);
+//         numbers.add(5);
+
+//         System.out.println("Before Update: "+numbers.toString());
+
+//         numbers.forEach(number -> {
+//             numbers.set(numbers.indexOf(number), number * 2);
+//         });
+//         System.out.println("After Update: " + numbers.toString());
+//     }
+// }
