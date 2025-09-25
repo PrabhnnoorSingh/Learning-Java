@@ -1264,3 +1264,20 @@
 //             System.out.println(examScores.getOrDefault("Religion", -1));
 //     }
 // }--
+
+//                         //How to clear a HashMap 
+// import java.util.HashMap;
+// class App{
+//     public static void main(String[]args){
+//         HashMap<String, Integer> examScores = new HashMap<String, Integer>();
+//             examScores.put("Maths", 90);
+//             examScores.put("Science", 85);
+//             examScores.put("History", 88);
+//             examScores.put("Physical Education", 95);
+//             examScores.put("English", 95);
+
+//             examScores.clear();
+
+//         System.out.println(examScores.toString());
+//     }
+// }
