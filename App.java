@@ -1314,7 +1314,7 @@
 //     }
 // }--
 
-//                         //How to check wether a HashMap includes a certain element
+//                         //How to check wether a HashMap includes a certain key
 // import java.util.HashMap;
 // class App{
 //     public static void main(String[]args){
