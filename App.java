@@ -1296,3 +1296,20 @@
 //         System.out.println(examScores.size());
 //     }
 // }
+
+//                         //How to remove a key-value pair from a HashMap
+// import java.util.HashMap;
+// class App{
+//     public static void main(String[]args){
+//         HashMap<String, Integer> examScores = new HashMap<String, Integer>();
+//         examScores.put("Maths", 90);
+//         examScores.put("Science", 85);
+//         examScores.put("History", 88);
+//         examScores.put("Physical Education", 95);
+//         examScores.put("English", 95);        
+    
+//         examScores.remove("Physical Education");
+
+//         System.out.println(examScores.toString());
+//     }
+// }--
